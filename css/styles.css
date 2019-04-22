@@ -1,0 +1,213 @@
+/*==============================================*/
+/* Fonts                                        */
+/*==============================================*/
+
+:root,
+body, 
+header, 
+footer, 
+section, 
+article, 
+div, 
+ul, ol, li, 
+p, a, span,
+label, input, button {
+	font-family: 'Roboto', arial;
+};
+
+body {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.o-wrapper{
+	margin: auto;
+	width: 60rem;
+
+}
+
+.o-wrapper-nav{
+	margin: auto;
+	width: 65rem;
+
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+	.o-wrapper {
+		width: 50rem;
+	}
+
+	.o-wrapper-nav{
+		margin: auto;
+		width: 55rem;
+	
+	}
+  }
+
+  @media only screen and (max-width: 992px) {
+	.o-wrapper {
+		width: 40rem;
+	}
+
+	.o-wrapper-nav{
+		margin: auto;
+		width: 45rem;
+	
+	}
+  }
+
+  @media only screen and (max-width: 768px) {
+	.o-wrapper {
+		width: 30rem;
+	}
+
+	.o-wrapper-nav{
+		margin: auto;
+		width: 35rem;
+	
+	}
+  }
+
+  @media only screen and (max-width: 576px) {
+	.o-wrapper {
+		width: 25rem;
+	}
+
+	.o-wrapper-nav{
+		margin: auto;
+		width: 30rem;
+	
+	}
+  }
+
+ h2{
+	 margin: 50px 0 20px;
+ }
+
+
+/*==============================================*/
+/* Navigation                                   */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: header, nav, ul, li, a, div.
+ */
+
+
+/*==============================================*/
+/* Articles                                     */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, h2, section, article.
+ */
+
+  
+
+
+ .article img{
+	
+	height: auto;
+	width: 300px;
+	
+	padding: 15px 5px 5px;
+	
+	
+ }
+
+ @media only screen and (max-width: 1300px) {
+	.article img {
+		width: 240px;
+	}
+  }
+
+  @media only screen and (max-width: 992px) {
+	.article img {
+		width: 240px;
+	}
+
+	.article{
+		display: flex;
+	}
+  }
+
+  @media only screen and (max-width: 576px) {
+	.article {
+		display: inline-block;
+	}
+  }
+
+/*==============================================*/
+/* Recipes                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, ul, li, p.
+ */
+  .recipe{
+	padding: 15px;
+	width: 217.5px;
+  }
+
+ .recipe-img{
+	 height: auto;
+	 width: 217.5px;
+ }
+
+ @media only screen and (max-width: 1300px) {
+	.recipe-img {
+		width: 187.5px;
+	}
+
+	
+  }
+
+  @media only screen and (max-width: 992px) {
+	.recipe-img {
+		width: 160px;
+	}
+
+	.recipe{
+		display: flex;
+	}
+  }
+
+  
+
+/*==============================================*/
+/* Contact                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, label, input.
+ */
+.contact{
+	margin: 15px 0;
+}
+
+
+/*==============================================*/
+/* Footer                                       */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: p.
+ */
+
+
+.icons a{
+	padding: 10px;
+}
+
+.footer-rights p{
+	margin: 0;
+	padding: 25px;
+	color: rgba(255, 255, 255, 0.5)
+}

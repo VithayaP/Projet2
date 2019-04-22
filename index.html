@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <!-- fait par Thomas Dumouchel et Vithaya Phimasonne-->   
+      <!-- =============================== -->
+    <meta charset="UTF-8" 2/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- CSS Libraries -->
+    <!-- ================================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link 
+      rel="stylesheet" 
+      href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,700" 
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <!-- ================================= -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+     <!-- animate.css -->
+    <!-- ================================= -->
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- JS Libraries -->
+    <!-- ================================= -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My Scripts -->
+    <script src="./js/scripts.js"></script>
+    <script src="./js/_data_.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+      <!--Barre de navigation-->
+      <div class="bg-dark sticky-top">
+        <nav class=" animated shake navbar  navbar-expand-lg navbar-dark o-wrapper-nav">
+          <a class="navLogo navbar-brand" href="#">TANTE</a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" 
+          data-target="#navCollapse" aria-controls="navbarNavAltMarkup" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navCollapse">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="#accueil">Accueil</a>
+              <a class="nav-item nav-link" href="#recettes">Recettes</a>
+              <a class="nav-item nav-link" href="#contact">Contactez-moi</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+      <!--Accueil-->
+      <section class="o-wrapper">
+        <h2 id="accueil" class="animated slideInLeft">Bienvenue</h2>
+        <div class="row">
+          <!--article 1-->
+        <div class="animated slideInLeft article col-12 col-sm-12 col-md-12 col-lg-4 bg-info"> 
+          <!--  <div class="animate slideInLeft"> -->
+            <div>
+              <img src="./assets/Acc1.jpg" alt="article #1">
+            </div>
+            <div>
+              <h3 class="article-titre">Titre</h3>
+              <h4 class="article-sous-titre">Sous-titre</h4>
+              <p class="article-content">Lorem ipsum dolor sit amet...</p>
+            </div> 
+          </div>
+          <!--article 2-->
+          <div class="animated slideInUp article col-12 col-sm-12 col-md-12 col-lg-4">
+            <div>
+              <img src="./assets/Acc2.jpg" alt="article #2">
+            </div>
+            <div>
+              <h3 class="article-titre">Titre</h3>
+              <h4 class="article-sous-titre">Sous-titre</h4>
+              <p class="article-content">Lorem ipsum dolor sit amet...</p>
+            </div> 
+          </div>
+          <!--article 3-->
+          <div class=" animated slideInRight article col-12 col-sm-12 col-md-12 col-lg-4 bg-warning">
+            <div>
+              <img src="./assets/Acc3.jpg" alt="article #3">
+            </div>
+            <div>
+              <h3 class="article-titre">Titre</h3>
+              <h4 class="article-sous-titre">Sous-titre</h4>
+              <p class="article-content">Lorem ipsum dolor sit amet...</p>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+      <!--Recettes-->
+      <section class="o-wrapper">
+        <h2 id="recettes">Recettes offertes</h2>
+        <!--Row #1 of 4 recipes-->
+        <div class='row'>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec1.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec2.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec3.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec4.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+        </div>
+        <!--Row #2 of 4 recipes-->
+        <div class='row'>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec5.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec6.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec7.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec8.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+        </div>
+
+        <!--Row #3 of 4 recipes-->
+        <div class='row'>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec9.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec10.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec11.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+          <div class='recipe col-12 col-sm-12 col-md-6 col-lg-3'>
+            <div>
+              <img class='recipe-img' src="./assets/Rec12.jpg" alt="recipe #1">
+            </div>
+            <div class='row'>
+              <span class='recipe-price col-12 col-sm-12 col-md-12 col-lg-3'>price</span>
+              <span class='recipe-description col-12 col-sm-12 col-md-12 col-lg-9'>recipe description</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact-->
+      <section class="o-wrapper">
+        <div class="contact">
+          <h2 id="contact">Contactez-moi</h2>
+          <p>Pour mieux vous servir, veuillez s'il-vous-plait remplir le formulaire 
+            en entier. Toutes vos informations resteront confidentielles. Merci!</p>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="prenom">Prenom</label>
+                <input type="text" class="form-control" id="prenom" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="adresse">Adresse</label>
+                <input type="text" class="form-control" id="adresse" 
+                placeholder="1234 rue xyz" required> 
+              </div>
+              <div class="form-group col-md-6">
+                <label for="tel">Telephone</label>
+                <input type="text" class="form-control" id="tel" 
+                placeholder="XXXYYYYYYY" required> 
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="ville">Ville</label>
+                <input type="text" class="form-control" id="ville" required>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="province">Province</label>
+                <select id="province" class="form-control" >
+                  <option selected>Quebec</option>
+                  <option>Ontario</option>
+                  <option>Terre-Neuve</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="code-p">Code Postal</label>
+                <input type="text" pattern ="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" class="form-control" id="code-p" 
+                placeholder="A1A 1A1" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="requete">Comment pourrais-je vous aider?</label>
+              <textarea class="form-control" id="requete" rows="3" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" onclick="validerChamps()">Soumettre</button>
+          
+            
+          </form>
+        </div>
+        
+      </section>
+      <!--Footer-->
+
+      <footer>
+        <div class="social text-center">
+          <p>Suivez-moi sur les reseaux sociaux: </p>
+          <div class="icons d-flex justify-content-center">  
+            <a href="#"><i class="fa fa-facebook-f" style="font-size:24px"></i></a>
+            <a href='#'><i class="fa fa-instagram" style="font-size:24px"></i></a>
+            <a href='#'><i class="fa fa-twitter" style="font-size:24px"></i></a>
+            <a href='#'><i class="fa fa-pinterest-p" style="font-size:24px"></i></a>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="30" viewBox="0 0 120 30">
+                <circle cx="15" cy="15" r="15" fill-opacity="0.3">
+                    <animate attributeName="r" from="15" to="15"
+                             begin="0s" dur="0.8s"
+                             values="15;9;15" calcMode="linear"
+                             repeatCount="indefinite" />
+                </circle>
+                <circle cx="60" cy="15" r="9" fill-opacity="0.3">
+                    <animate attributeName="r" from="9" to="9"
+                             begin="0s" dur="0.8s"
+                             values="9;15;9" calcMode="linear"
+                             repeatCount="indefinite" />
+                </circle>
+                <circle cx="105" cy="15" r="15" fill-opacity="0.3">
+                    <animate attributeName="r" from="15" to="15"
+                             begin="0s" dur="0.8s"
+                             values="15;9;15" calcMode="linear"
+                             repeatCount="indefinite" />
+                </circle>
+              </svg>   
+            </div>
+          </div>
+        </div>
+        <div class="footer-rights bg-dark text-center">
+          <p>Copyrights © 2019 -</p>
+        </div>
+      </footer>
+
+      <!--Validation-->
+      <script>
+          function validerChamps(){
+            var chiffre = "0123456789";
+            var car = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            // valider phone
+            var phone = document.getElementById("tel").value;
+            if (phone.length != 10) alert("longueur du numéro de téléphone doit être 10")
+            else {
+              var correctTel;
+              var i;
+              for (i = 0; i < phone.length; i++) { 
+                var nombre = phone.substr(i, 1);
+                console.log(nombre);
+                correctTel = chiffre.includes(nombre);
+                if (!correctTel) break;
+              };
+              if(correctTel) console.log('Téléphone correct')
+                else alert('Téléphone doit contenir que des chiffres entre 0 et 9')
+            };
+            // valider code postal
+            var codePostal = document.getElementById("code-p").value;
+            if (codePostal.length !=6) alert("longueur du code posatl doit être 10")
+            else {
+              var correctPostal; 
+              var i;
+              for (i = 0; i < codePostal.length; i++) { 
+                var lettre = codePostal.substr(i, 1);
+                console.log(lettre);
+                if(i % 2 == 0) {correctPostal = car.includes(lettre.toUpperCase())} else {correctPostal = chiffre.includes(lettre)};
+                if (!correctPostal) break;
+              };
+              if(correctPostal) {console.log('Code Postal correct')} else  {alert('Code Postal incorrect')}
+            };
+            if (correctTel && correctPostal) {alert('Vos données ont été transmises,')}
+        }
+      </script>
+</body>
+</html>
